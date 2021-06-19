@@ -1,7 +1,7 @@
-public class Aplicacao 
+public class Application
 {
     public static void main(String[] args) 
     {
-        
+
     }
 }
