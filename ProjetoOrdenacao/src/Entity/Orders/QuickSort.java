@@ -9,12 +9,12 @@ package Entity.Orders;
 public class QuickSort extends Ordination
 {
     @Override
-    public ResultOrder Order(long[] entrada)
+    public ResultOrder Order(long[] entry)
     {
         ResultOrder result = new ResultOrder();
 
         long initialTime = System.currentTimeMillis();
-        long[] returnee = quickSort(entrada,0,entrada.length-1);
+        long[] returnee = quickSort(entry,0,entry.length-1);
         long endTime = System.currentTimeMillis();
 
         result.setTime("Executado em = " + (endTime - initialTime) + " ms");

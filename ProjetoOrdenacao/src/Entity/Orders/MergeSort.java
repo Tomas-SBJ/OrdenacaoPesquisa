@@ -8,7 +8,7 @@ import java.util.ArrayList;
  * @author Anthony de Zutter
 */
 
-public class MergeSort
+public class MergeSort extends Ordination
 {
     private ArrayList<Long> vetor;
 
@@ -44,29 +44,37 @@ public class MergeSort
         int leftIndex = startIndex;
         int rightIndex = midIndex+1;
 
-        while (leftIndex <= midIndex && rightIndex <= endIndex) {
-            if (vetor.get(leftIndex) <= vetor.get(rightIndex)) {
+        while (leftIndex <= midIndex && rightIndex <= endIndex)
+        {
+            if (vetor.get(leftIndex) <= vetor.get(rightIndex))
+            {
                 mergedSortedArray.add(vetor.get(leftIndex));
                 leftIndex++;
-            }else {
+            }
+            else
+            {
                 mergedSortedArray.add(vetor.get(rightIndex));
                 rightIndex++;
             }
         }
 
-        while (leftIndex <= midIndex) {
+        while (leftIndex <= midIndex)
+        {
             mergedSortedArray.add(vetor.get(leftIndex));
             leftIndex++;
         }
 
-        while (rightIndex <= endIndex) {
+        while (rightIndex <= endIndex)
+        {
             mergedSortedArray.add(vetor.get(rightIndex));
             rightIndex++;
         }
 
         int i = 0;
         int j = startIndex;
-        while (i < mergedSortedArray.size()) {
+
+        while (i < mergedSortedArray.size())
+        {
             vetor.set(j, mergedSortedArray.get(i++));
             j++;
         }

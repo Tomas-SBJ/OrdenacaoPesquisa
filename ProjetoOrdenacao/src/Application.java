@@ -19,16 +19,27 @@ public class Application
 {
     public static void main(String[] args)
     {
+        //Método de ordenação por InsertionSort demora aproximadamente 70.000 ms.
+        //Método de ordenação por QuickSort demora aproximadamente 79 ms.
+        //Método de ordenação por MergeSort demora aproximadamente ????????????????????????????
+
+        //"C:\\Users\\tomas\\Downloads\\NumerosOrdenarArquivoLong.txt"
+        //"C:\\Users\\tomas\\Downloads\\NumerosOrdenarArquivoShort.txt"
+        int option;
+        long value;
+        String loop;
+
+        BinarySearch binarySearch = new BinarySearch();
+        Ordination ordination;
+
+        Scanner keyboard = new Scanner(System.in);
+
         try
         {
-            //"C:\\Users\\tomas\\Downloads\\NumerosOrdenarArquivo.txt"
-            Scanner keyboard = new Scanner(System.in);
             System.out.println("Informe o caminho do arquivo");
             String path = keyboard.nextLine();
-            String loop;
-            long[] file = carregarDados(path);
+            long[] file = loadData(path);
 
-            Ordination ordination;
             System.out.println("""
                     Informe um método de ordenação:
                     1 - QuickSort
@@ -36,7 +47,7 @@ public class Application
                     3 - MergeSort
                     """);
 
-            int option = keyboard.nextInt();
+            option = keyboard.nextInt();
 
             switch (option)
             {
@@ -64,9 +75,8 @@ public class Application
             do
             {
                 System.out.println("Informe o valor a ser pesquisado:");
-                long value = keyboard.nextLong();
+                value = keyboard.nextLong();
 
-                BinarySearch binarySearch = new BinarySearch();
                 ResultSearch resultSearch = binarySearch.Researching(orderedList.getResult(), value);
 
                 if (resultSearch.getResult() != -1)
@@ -88,13 +98,13 @@ public class Application
                 loop = keyboard.next().toLowerCase(Locale.ROOT);
             } while(loop.equals("sim"));
         }
-        catch (IOException e)
+        catch (IOException ex)
         {
             System.out.println("Erro no arquivo selecionado.");
         }
-        catch (Exception e)
+        catch (Exception ex)
         {
-            System.out.println(e.getMessage());
+            System.out.println(ex.getMessage());
         }
         finally
         {
@@ -102,7 +112,7 @@ public class Application
         }
     }
 
-    private static long[] carregarDados(String route) throws IOException {
+    private static long[] loadData(String route) throws IOException {
         Path path = Paths.get(route);
         return Files.lines(path).mapToLong(Long::parseLong).toArray();
     }
