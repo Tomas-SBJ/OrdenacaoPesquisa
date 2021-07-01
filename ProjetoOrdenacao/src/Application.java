@@ -34,7 +34,7 @@ public class Application
             {
                 case 1 ->
                 {
-                    //ordination = new QuickSort();
+                    ordination = new QuickSort();
                 }
 
                 case 2 ->
