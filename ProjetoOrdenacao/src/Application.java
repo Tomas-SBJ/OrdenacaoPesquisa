@@ -19,12 +19,12 @@ public class Application
 {
     public static void main(String[] args)
     {
-        //Método de ordenação por InsertionSort demora aproximadamente 70.000 ms.
-        //Método de ordenação por QuickSort demora aproximadamente 79 ms.
-        //Método de ordenação por MergeSort demora aproximadamente ????????????????????????????
+        // Método de ordenação por QuickSort demora aproximadamente 79 ms.
+        // Método de ordenação por InsertionSort demora aproximadamente 70.000 ms.
+        // Método de ordenação por MergeSort demora aproximadamente 500 ms.
 
-        //"C:\\Users\\tomas\\Downloads\\NumerosOrdenarArquivoLong.txt"
-        //"C:\\Users\\tomas\\Downloads\\NumerosOrdenarArquivoShort.txt"
+        // "C:\\Users\\tomas\\Downloads\\NumerosOrdenarArquivoLong.txt"
+        // "C:\\Users\\tomas\\Downloads\\NumerosOrdenarArquivoShort.txt"
         int option;
         long value;
         String loop;
@@ -55,11 +55,8 @@ public class Application
 
                 case 2 -> ordination = new InsertionSort();
 
-                /* case 3 ->
-                {
-                    ordination = new MergeSort();
-                }
-                */
+                case 3 -> ordination = new MergeSort();
+
                 default -> throw new Exception("Opção inválida.");
             }
 

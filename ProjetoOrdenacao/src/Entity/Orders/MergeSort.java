@@ -10,24 +10,37 @@ import java.util.ArrayList;
 
 public class MergeSort extends Ordination
 {
-    private ArrayList<Long> vetor;
+    private long[] vetor;
 
-    public MergeSort(ArrayList<Long> vetor)
+    @Override
+    public ResultOrder Order(long[] entry)
     {
-        this.vetor = vetor;
+        ResultOrder result = new ResultOrder();
+
+        long initialTime = System.currentTimeMillis();
+        long[] returnee = mergeSort(entry);
+        long endTime = System.currentTimeMillis();
+
+        result.setTime("Executado em = " + (endTime - initialTime) + " ms");
+        result.setResult(returnee);
+
+        return result;
     }
 
-    public ArrayList<Long> sort()
+
+    public long[] mergeSort(long[] vetor)
     {
-        divide(0, vetor.size()-1);
+        this.vetor = vetor;
+
+        divide(0, vetor.length -1);
 
         return vetor;
     }
 
     private void divide(int startIndex, int endIndex)
     {
-
-        if (startIndex < endIndex && endIndex - startIndex >= 1) {
+        if (startIndex < endIndex && endIndex - startIndex >= 1)
+        {
             int mid = (endIndex + startIndex) / 2;
             divide(startIndex, mid);
             divide(mid+1, endIndex);
@@ -38,7 +51,6 @@ public class MergeSort extends Ordination
 
     private void merge(int startIndex, int midIndex, int endIndex)
     {
-
         ArrayList<Long> mergedSortedArray = new ArrayList<>();
 
         int leftIndex = startIndex;
@@ -46,36 +58,35 @@ public class MergeSort extends Ordination
 
         while (leftIndex <= midIndex && rightIndex <= endIndex)
         {
-            if (vetor.get(leftIndex) <= vetor.get(rightIndex))
+            if (vetor[leftIndex] <= vetor[rightIndex])
             {
-                mergedSortedArray.add(vetor.get(leftIndex));
+                mergedSortedArray.add(vetor[leftIndex]);
                 leftIndex++;
-            }
-            else
+            }else
             {
-                mergedSortedArray.add(vetor.get(rightIndex));
+                mergedSortedArray.add(vetor[rightIndex]);
                 rightIndex++;
             }
         }
 
         while (leftIndex <= midIndex)
         {
-            mergedSortedArray.add(vetor.get(leftIndex));
+            mergedSortedArray.add(vetor[leftIndex]);
             leftIndex++;
         }
 
+
         while (rightIndex <= endIndex)
         {
-            mergedSortedArray.add(vetor.get(rightIndex));
+            mergedSortedArray.add(vetor[rightIndex]);
             rightIndex++;
         }
 
         int i = 0;
         int j = startIndex;
-
         while (i < mergedSortedArray.size())
         {
-            vetor.set(j, mergedSortedArray.get(i++));
+            vetor[j] = mergedSortedArray.get(i++);
             j++;
         }
     }
