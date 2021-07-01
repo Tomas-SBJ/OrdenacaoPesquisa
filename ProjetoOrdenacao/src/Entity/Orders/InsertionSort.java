@@ -1,7 +1,13 @@
 package Entity.Orders;
 
-public class InsertionSort extends Ordination {
+/**
+ * Classe que ordena um vetor de elementos, utilizando o InsertionSort.
+ *
+ * @author Arthur Vinícius Voltolini
+ */
 
+public class InsertionSort extends Ordination
+{
     @Override
     public ResultOrder Order(long[] entry)
     {

@@ -1,5 +1,11 @@
 package Entity.Searches;
 
+/**
+ * Classe ResultOrder
+ *
+ * @author Eduardo Machado de Medeiros
+ */
+
 public class ResultSearch
 {
     private String Time;

@@ -1,5 +1,11 @@
 package Entity.Searches;
 
+/**
+ * Classe de pesquisa, utilizando o BinarySearch.
+ *
+ * @author Gabriel Puziski Machado
+ */
+
 public class BinarySearch extends Search
 {
     @Override

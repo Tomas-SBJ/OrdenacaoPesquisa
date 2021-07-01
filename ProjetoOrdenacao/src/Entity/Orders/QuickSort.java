@@ -1,5 +1,11 @@
 package Entity.Orders;
 
+/**
+ * Classe que ordena um vetor de elementos, utilizando o QuickSort.
+ *
+ * @author Reinaldo dos Santos Junior
+ */
+
 public class QuickSort extends Ordination
 {
     @Override

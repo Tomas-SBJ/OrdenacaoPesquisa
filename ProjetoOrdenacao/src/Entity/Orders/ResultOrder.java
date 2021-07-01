@@ -1,5 +1,11 @@
 package Entity.Orders;
 
+/**
+ * Classe ResultOrder
+ *
+ * @author Eduardo Machado de Medeiros
+ */
+
 public class ResultOrder
 {
     private String Time;

@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca6e0de2-971c-4203-a12c-eaa10bb8b5f9" name="Default Changelist" comment="Quase lá">
+    <list default="true" id="ca6e0de2-971c-4203-a12c-eaa10bb8b5f9" name="Default Changelist" comment="Quase láaa">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/Entity/Orders/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/Entity/Orders/InsertionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Orders/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Orders/InsertionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625100224457</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Quase láaa">
+      <created>1625100960549</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625100960549</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,6 +107,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Pega Ae" />
     <MESSAGE value="Quase lá" />
-    <option name="LAST_COMMIT_MESSAGE" value="Quase lá" />
+    <MESSAGE value="Quase láaa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Quase láaa" />
   </component>
 </project>

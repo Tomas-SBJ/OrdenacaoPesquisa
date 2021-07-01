@@ -3,7 +3,7 @@ package Entity.Orders;
 import java.util.ArrayList;
 
 /**
- * Classe que ordena um vetor de elementos, utilizando o Merge Sort.
+ * Classe que ordena um vetor de elementos, utilizando o MergeSort.
  *
  * @author Anthony de Zutter
 */
