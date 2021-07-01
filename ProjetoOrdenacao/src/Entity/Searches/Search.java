@@ -1,8 +1,6 @@
 package Entity.Searches;
 
-import Entity.Data;
-
-public class Search extends Data
+public abstract class Search
 {
-
+    public abstract ResultSearch Researching(long[] entry, long value);
 }

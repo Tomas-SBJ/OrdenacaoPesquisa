@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca6e0de2-971c-4203-a12c-eaa10bb8b5f9" name="Default Changelist" comment="Pega Ae" />
+    <list default="true" id="ca6e0de2-971c-4203-a12c-eaa10bb8b5f9" name="Default Changelist" comment="Pega Ae">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entidades/Data.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entidades/Ordenacoes/InsertionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entidades/Ordenacoes/Ordination.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entidades/Ordenacoes/QuickSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entidades/Pesquisas/AlternativeBinary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entidades/Pesquisas/BinarySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entidades/Pesquisas/LinearSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entidades/Pesquisas/RecursiveBinary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entidades/Pesquisas/Research.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Data.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Orders/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Orders/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Orders/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Orders/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Orders/Ordination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Orders/Ordination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Orders/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Orders/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Searches/AlternativeBinary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Searches/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Searches/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Searches/LinearSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Searches/RecursiveBinary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Searches/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Searches/Search.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,9 +37,12 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1u8vaoXnLRx5m2SFfIWYZ1axElh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,6 +54,20 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Application" />
+      <module name="untitled104" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

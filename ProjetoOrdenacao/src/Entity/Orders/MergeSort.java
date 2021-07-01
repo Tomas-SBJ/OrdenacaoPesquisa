@@ -7,6 +7,7 @@ import java.util.ArrayList;
  *
  * @author Anthony de Zutter
 */
+
 public class MergeSort
 {
     private ArrayList<Long> vetor;

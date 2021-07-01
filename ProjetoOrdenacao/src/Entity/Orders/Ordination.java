@@ -1,8 +1,6 @@
 package Entity.Orders;
 
-import Entity.Data;
-
-public class Ordination extends Data
+public abstract class Ordination
 {
-
+    public abstract ResultOrder Order(long[] entry);
 }
