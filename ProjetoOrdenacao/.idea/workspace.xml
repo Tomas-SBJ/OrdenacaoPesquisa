@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca6e0de2-971c-4203-a12c-eaa10bb8b5f9" name="Default Changelist" comment="Quase terminando">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/Entity/Orders/Ordination.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/Entity/Orders/Ordination.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/Entity/Orders/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/Entity/Orders/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/Entity/Orders/ResultOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/Entity/Orders/ResultOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/Entity/Searches/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/Entity/Searches/BinarySearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/Entity/Searches/ResultSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/Entity/Searches/ResultSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/Entity/Searches/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/Entity/Searches/Search.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Orders/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Orders/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Orders/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Orders/QuickSort.java" afterDir="false" />
-    </list>
+    <list default="true" id="ca6e0de2-971c-4203-a12c-eaa10bb8b5f9" name="Default Changelist" comment="Quase terminando. Alterações QuickSort." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625102450170</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Quase terminando. Alterações QuickSort.">
+      <created>1625104316946</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1625104316946</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +117,7 @@
     <MESSAGE value="Quase lá" />
     <MESSAGE value="Quase láaa" />
     <MESSAGE value="Quase terminando" />
-    <option name="LAST_COMMIT_MESSAGE" value="Quase terminando" />
+    <MESSAGE value="Quase terminando. Alterações QuickSort." />
+    <option name="LAST_COMMIT_MESSAGE" value="Quase terminando. Alterações QuickSort." />
   </component>
 </project>

@@ -23,8 +23,8 @@ public class Application
         // Método de ordenação por InsertionSort demora aproximadamente 70.000 ms.
         // Método de ordenação por MergeSort demora aproximadamente 500 ms.
 
-        // "C:\\Users\\tomas\\Downloads\\NumerosOrdenarArquivoLong.txt"
-        // "C:\\Users\\tomas\\Downloads\\NumerosOrdenarArquivoShort.txt"
+        // C:\\Users\\tomas\\Downloads\\NumerosOrdenarArquivoLong.txt
+        // C:\\Users\\tomas\\Downloads\\NumerosOrdenarArquivoShort.txt
         int option;
         long value;
         String loop;
