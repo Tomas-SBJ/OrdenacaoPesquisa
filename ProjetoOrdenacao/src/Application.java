@@ -1,5 +1,4 @@
 import Entity.Orders.*;
-import Entity.Searches.BinarySearch;
 import Entity.Searches.ResultSearch;
 
 import java.io.IOException;
